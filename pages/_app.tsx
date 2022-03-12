@@ -7,7 +7,7 @@ import 'windi.css'
 import '~/styles/index.css'
 
 function App({ Component, pageProps, router }: AppProps) {
-  const url = `https://jaded.club${router.route}`
+  const url = `https://jaded.site${router.route}`
 
   return (
     <>
