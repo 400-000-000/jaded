@@ -17,7 +17,7 @@ function App({ Component, pageProps, router }: AppProps) {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 5, duration: 1, type: 'ease-out' }}
-          href='https://twitter.com/400_000_000'
+          href='https://400000000.co'
           className={classNames(
             'fixed z-1 left-8 bottom-0 w-20 aspect-square animate-bounce'
             // pathname === '/' ? 'bottom-0' : '-bottom-1em'
