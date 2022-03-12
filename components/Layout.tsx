@@ -30,7 +30,7 @@ export const Layout = ({
       <NextSeo {...{ description, title }} openGraph={{ description, title }} />
       {pathname === '/' && (
         <div className={classNames('fixed inset-center w-1/2 h-1/2')}>
-          <div className='aspect-square max-w-full max-h-full mx-auto'>
+          <div className='aspect-square max-w-full max-h-full m-auto'>
             <motion.div
               layoutId='logo'
               className='w-full h-full object-contain'
