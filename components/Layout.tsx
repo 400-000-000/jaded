@@ -17,7 +17,7 @@ export const Layout = ({
   title,
   description,
 }: {
-  children: React.ReactNode
+  children?: React.ReactNode
   className?: Argument
   title?: string
   description?: string
