@@ -19,7 +19,7 @@ function App({ Component, pageProps, router }: AppProps) {
           transition={{ delay: 5, duration: 1, type: 'ease-out' }}
           href='https://400000000.co'
           className={classNames(
-            'fixed z-1 left-8 bottom-0 w-20 aspect-square animate-bounce'
+            'fixed z-1 right-8 bottom-0 w-16 aspect-square sm:(w-20) animate-bounce'
             // pathname === '/' ? 'bottom-0' : '-bottom-1em'
           )}
         >
