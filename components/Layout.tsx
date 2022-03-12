@@ -51,7 +51,7 @@ export const Layout = ({
               ? 'top-0 !duration-300 hover:translate-y-0.0675em'
               : pathname.startsWith('/about')
               ? 'top-1em'
-              : '-top-1em'
+              : '-top-4em'
           )}
           active={pathname.startsWith('/about')}
         >
@@ -78,7 +78,7 @@ export const Layout = ({
               ? 'right-0 !duration-300 hover:-translate-x-0.0675em'
               : pathname.startsWith('/forum')
               ? 'right-1em'
-              : '-right-1em'
+              : '-right-4em'
           )}
           active={pathname.startsWith('/forum')}
         >
@@ -105,7 +105,7 @@ export const Layout = ({
               ? 'bottom-1em !duration-300 hover:-translate-y-0.0675em'
               : pathname.startsWith('/records')
               ? 'bottom-2em'
-              : '-bottom-0'
+              : '-bottom-3em'
           )}
           active={pathname.startsWith('/records')}
         >
@@ -132,7 +132,7 @@ export const Layout = ({
               ? 'left-0 !duration-300 hover:translate-x-0.0675em'
               : pathname.startsWith('/contact')
               ? 'left-1em'
-              : '-left-1em'
+              : '-left-4em'
           )}
           active={pathname.startsWith('/contact')}
         >
