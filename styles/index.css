@@ -1,0 +1,30 @@
+// Try not to add stuff here
+// Windi probably has what you need: https://windicss.org/utilities/
+// You can add aliases in ../windi.config.ts > shortcuts
+
+@font-face {
+  font-family: 'Helvetica Now Text';
+  src: url('../public/fonts/HelveticaNowText-Regular.otf');
+  font-weight: 400;
+}
+
+:root {
+  @apply font-sans box-border bg-black text-white h-[stretch];
+  font-size: 16px;
+}
+
+body, [data-reactroot] {
+  @apply h-full;
+}
+
+body {
+  @apply text-base;
+}
+
+* {
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
