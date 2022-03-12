@@ -57,6 +57,7 @@
   },
   "eslintConfig": {
     "extends": [
+      "./.eslintrc-auto-import.json",
       "@antfu/eslint-config",
       "plugin:prettier/recommended"
     ],
@@ -99,6 +100,12 @@
         }
       ],
       "prettier/prettier": "error",
+      "react/jsx-no-undef": [
+        "error",
+        {
+          "allowGlobals": true
+        }
+      ],
       "react/prop-types": "off",
       "react/react-in-jsx-scope": "off",
       "sort-keys-fix/sort-keys-fix": [
@@ -117,8 +124,7 @@
           "asyncArrow": "always"
         }
       ]
-    },
-    "globals": {}
+    }
   },
   "prettier": {
     "printWidth": 80,

@@ -34,6 +34,9 @@ const nextConfig = {
 
     config.plugins.push(
       AutoImport({
+        eslintrc: {
+          enabled: true,
+        },
         resolvers: [
           IconsResolver({
             customCollections: ['icon'],
