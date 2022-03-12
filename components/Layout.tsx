@@ -29,18 +29,13 @@ export const Layout = ({
     <div>
       <NextSeo {...{ description, title }} openGraph={{ description, title }} />
       {pathname === '/' && (
-        <div className='fixed inset-center w-1/2 h-1/2 flex justify-stretch items-stretch'>
-          <div className='basis-full aspect-square max-w-full max-h-full m-auto'>
-            <motion.div
-              layoutId='logo'
-              className='w-full h-full object-contain'
-            >
-              <IconJaded
-                className='w-full h-full animate-spin'
-                style={{ animationDuration: '60s' }}
-              />
-            </motion.div>
-          </div>
+        <div className='fixed inset-center w-full max-w-1/2 max-h-1/2 aspect-square'>
+          <motion.div layoutId='logo' className='w-full h-full'>
+            <IconJaded
+              className='w-full h-full animate-spin'
+              style={{ animationDuration: '60s' }}
+            />
+          </motion.div>
         </div>
       )}
       <header className='uppercase leading-none text-2xl children:(!fixed z-1000 transition-all duration-500 children:w-max)'>
