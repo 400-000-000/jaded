@@ -1,0 +1,25 @@
+
+
+form {
+  @apply space-y-4;
+}
+
+input, textarea {
+  @apply bg-transparent;
+
+  &:disabled {
+    @apply opacity-25;
+  }
+}
+
+input:not([type]), input[type='text'], textarea {
+  @apply pb-2 border-b border-solid border-white/25 focus-within:(outline-none border-white);
+
+  &::placeholder {
+    @apply text-current opacity-25;
+  }
+}
+
+input[type='submit'] {
+  @apply text-left font-bold;
+}

@@ -42,7 +42,10 @@ export default defineConfig({
 
     content,
   ],
-  safelist: ['hidden'],
+  preflight: {
+    includeAll: true,
+  },
+  safelist: ['hidden', 'markdown', 'h1 h2 h3 h4 h5 h6 p a ol ul li'],
   shortcuts: {
     'bg-image-contain': 'bg-no-repeat bg-center bg-contain',
     'bg-image-cover': 'bg-no-repeat bg-center bg-cover',

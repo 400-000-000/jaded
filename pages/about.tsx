@@ -6,8 +6,8 @@ import content from '~/content/about.md'
 
 const AboutPage: NextPage = () => {
   return (
-    <Layout className='px-8 py-16 pt-75.5 flex flex-col justify-center items-center'>
-      <div className='w-prose max-w-full'>
+    <Layout className='px-8 py-16 pt-75.5 flex flex-col justify-center items-center children:(w-prose max-w-full)'>
+      <div className='markdown'>
         <Markdown>{content}</Markdown>
       </div>
     </Layout>

@@ -1,0 +1,81 @@
+.h1 {
+  @apply font-bold text-2em my-0.67em;
+}
+
+.h2 {
+  @apply font-bold text-1.5em my-0.83em;
+}
+
+.h3 {
+  @apply font-bold text-1.17em my-1em;
+}
+
+.h4 {
+  @apply font-bold my-1.33em;
+}
+
+.h5 {
+  @apply font-bold text-0.83em my-1.67em;
+}
+
+.h6 {
+  @apply font-bold text-0.67em my-2.33em;
+}
+
+.p {
+  @apply my-1em;
+}
+
+.a {
+  @apply inline-block underline transform transition-transform hover:scale-105;
+}
+
+.ol {
+  @apply my-1em pl-10 list-decimal;
+}
+
+.ul {
+  @apply my-1em pl-10 list-disc;
+}
+
+.markdown {
+  h1 {
+    @apply block h1;
+  }
+
+  h2 {
+    @apply block h2;
+  }
+
+  h3 {
+    @apply block h3;
+  }
+
+  h4 {
+    @apply block h4;
+  }
+
+  h5 {
+    @apply block h5;
+  }
+
+  h6 {
+    @apply block h6;
+  }
+
+  p {
+    @apply block p;
+  }
+
+  a {
+    @apply a;
+  }
+
+  ol {
+    @apply block ol;
+  }
+
+  ul {
+    @apply block ul;
+  }
+}

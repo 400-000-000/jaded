@@ -11,6 +11,7 @@ const WindiCSSWebpackPlugin = require('windicss-webpack-plugin')
  * @type {import('next').NextConfig}
  */
 const nextConfig = {
+  swcMinify: true,
   webpack(config /* , _options */) {
     config.module.rules.push({
       test: /\.md$/,

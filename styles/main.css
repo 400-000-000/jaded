@@ -1,0 +1,20 @@
+:root {
+  @apply font-sans box-border bg-black text-white h-[stretch];
+  font-size: 16px;
+}
+
+body, [data-reactroot] {
+  @apply h-full;
+}
+
+body {
+  @apply text-base;
+}
+
+* {
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
