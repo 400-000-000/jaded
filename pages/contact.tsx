@@ -23,6 +23,7 @@ const validationSchema = Yup.object().shape({
 })
 
 const ContactPage: NextPage = () => {
+  // @ts-expect-error type guard ignroes initialData
   const [{ createdAt, ...submission }, setSubmission] =
     useLocalStorage<Submission>(
       'contact-date',
