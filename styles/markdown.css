@@ -1,9 +1,11 @@
 .h1 {
   @apply font-accent !leading-[0.75] !font-normal uppercase text-5xl sm:text-6xl mt-24 mb-4;
 
-  columns: 2;
-  widows: 1;
-  orphans: 1;
+  @media (min-width: 640px) {
+    columns: 2;
+    widows: 1;
+    orphans: 1;
+  }
 }
 
 .h2 {
