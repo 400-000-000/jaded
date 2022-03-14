@@ -1,9 +1,5 @@
 # Contact us
 
-## hey
-
-### what
-
-hey
+Find us around
 
 [Twitter](https://twitter.com/JadedHub) • [Instagram](https://instagram.com/jadedhub)

@@ -6,7 +6,7 @@ import content from '~/content/records.md'
 
 const RecordsPage: NextPage = () => {
   return (
-    <Layout className='px-8 py-16 pb-45.125 flex flex-col justify-center items-center children:(w-prose max-w-full)'>
+    <Layout className='pb-45.125'>
       <div className='markdown'>
         <Markdown>{content}</Markdown>
       </div>

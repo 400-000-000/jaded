@@ -3,6 +3,12 @@ import { defineConfig } from 'windicss/helpers'
 
 import { aria, content } from './packages/@replygirl/windicss-plugins'
 
+const fonts = {
+  base: ['"Apple Color Emoji"', '"Segoe UI Emoji"', '"Segoe UI Symbol"'],
+  helvetica: ['"Helvetica Now Text"', '"Helvetica Neue"', 'Helvetica'],
+  sans: ['-apple-system', 'BlinkMacSystemFont', 'Arial'],
+}
+
 export default defineConfig({
   darkMode: 'class',
   extract: {
@@ -45,7 +51,7 @@ export default defineConfig({
   preflight: {
     includeAll: true,
   },
-  safelist: ['hidden', 'markdown', 'h1 h2 h3 h4 h5 h6 p a ol ul li'],
+  safelist: ['hidden', 'markdown', 'h1 h2 h3 h4 h5 h6 p em strong a ol ul li'],
   shortcuts: {
     'bg-image-contain': 'bg-no-repeat bg-center bg-contain',
     'bg-image-cover': 'bg-no-repeat bg-center bg-cover',
@@ -67,6 +73,9 @@ export default defineConfig({
       backgroundImage: {
         logo: "url('/images/logos/jaded.svg')",
       },
+      fontWeight: {
+        book: 350,
+      },
       screens: {
         '2xs': '360px',
         xs: '480px',
@@ -85,6 +94,19 @@ export default defineConfig({
       },
     },
     fontFamily: {
+      accent: ['"FUNGIS"', ...fonts.sans, ...fonts.base],
+      display: [
+        '"Helvetica Now Display"',
+        ...fonts.helvetica,
+        ...fonts.sans,
+        ...fonts.base,
+      ],
+      micro: [
+        '"Helvetica Now Micro"',
+        ...fonts.helvetica,
+        ...fonts.sans,
+        ...fonts.base,
+      ],
       mono: [
         'Space Mono',
         'Helvetica Mono',
@@ -96,14 +118,9 @@ export default defineConfig({
         'Liberation Mono',
         'Courier New',
         'monospace',
+        ...fonts.base,
       ],
-      sans: [
-        'Helvetica Now Text',
-        // 'Helvetica Neue',
-        'Helvetica',
-        // 'Arial',
-        // 'sans-serif',
-      ],
+      sans: ['"Miedinger*"', ...fonts.helvetica, ...fonts.sans, ...fonts.base],
     },
   },
 })

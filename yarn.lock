@@ -755,6 +755,11 @@
   dependencies:
     "@types/unist" "*"
 
+"@types/hyphen@^1.6.5":
+  version "1.6.5"
+  resolved "https://registry.yarnpkg.com/@types/hyphen/-/hyphen-1.6.5.tgz#d44a654fed340d65c6e40b01d7254712e7ff4ac9"
+  integrity sha512-BnFY2Npf3px1ldRzDusoRSEaB4uoWKGGa2mQwImQ+tH/+t+70kd1SPtvJN+/v+iLabr4MKUi2p2enlYa9cekww==
+
 "@types/js-cookie@^2.2.6":
   version "2.2.7"
   resolved "https://registry.yarnpkg.com/@types/js-cookie/-/js-cookie-2.2.7.tgz#226a9e31680835a6188e887f3988e60c04d3f6a3"
@@ -2857,6 +2862,11 @@ humanize-ms@^1.2.1:
   integrity sha1-xG4xWaKT9riW2ikxbYtv6Lt5u+0=
   dependencies:
     ms "^2.0.0"
+
+hyphen@^1.6.4:
+  version "1.6.4"
+  resolved "https://registry.yarnpkg.com/hyphen/-/hyphen-1.6.4.tgz#9859678fe1af2793b49e7d466e85f85b5698917e"
+  integrity sha512-nWwvXceFMAFIjkiRzqZMZSOa1LVngieSolnYIVKWSwmDwMSmdutjzqImmdbxe2eUCfX693fgrCgtPjbllqx1lA==
 
 hyphenate-style-name@^1.0.2:
   version "1.0.4"

@@ -43,21 +43,21 @@ export const Layout = ({
           className={classNames(
             'group inset-x-center cursor-pointer hover:scale-105',
             pathname === '/'
-              ? 'top-0 !duration-300 hover:translate-y-0.0675em'
+              ? '-top-0.1875em !duration-300 hover:translate-y-0.0675em'
               : pathname.startsWith('/about')
-              ? 'top-1em'
-              : '-top-4em'
+              ? 'top-0.8125em'
+              : '-top-4.1875em'
           )}
           active={pathname.startsWith('/about')}
         >
           <Link href={pathname === '/about' ? '/' : '/about'}>
             <a
               className={classNames(
-                'inline-block transform transition-transform duration-500',
+                'inline-block transform translate-y-0.1875em transition-transform duration-500 hover:underline',
                 {
-                  '!hover:(translate-y-0 scale-100 no-underline)':
+                  '!hover:(scale-100 no-underline)':
                     pathname.startsWith('/about') && pathname !== '/about',
-                  'group-hover:(-translate-y-0.0675em scale-90 line-through)':
+                  'group-hover:(scale-90 line-through)':
                     pathname.startsWith('/about'),
                 }
               )}
@@ -70,21 +70,21 @@ export const Layout = ({
           className={classNames(
             'group inset-y-center cursor-pointer hover:scale-105',
             pathname === '/'
-              ? 'right-0 !duration-300 hover:-translate-x-0.0675em'
+              ? 'right-0.3125em !duration-300 hover:-translate-x-0.0675em'
               : pathname.startsWith('/forum')
-              ? 'right-1em'
-              : '-right-4em'
+              ? 'right-0.8125em'
+              : '-right-4.1875em'
           )}
           active={pathname.startsWith('/forum')}
         >
           <Link href={pathname === '/forum' ? '/' : '/forum'}>
             <a
               className={classNames(
-                'inline-block transform rotate-90 -translate-x-0.5em transition-transform duration-500',
+                'text-center inline-block transform rotate-90 -translate-x-0.1875em transition-transform duration-500 hover:underline',
                 {
-                  '!hover:(-translate-x-0.5em scale-100 no-underline)':
+                  '!hover:(scale-100 no-underline)':
                     pathname.startsWith('/forum') && pathname !== '/forum',
-                  'group-hover:(-translate-x-0.4325em scale-90 line-through)':
+                  'group-hover:(scale-90 line-through)':
                     pathname.startsWith('/forum'),
                 }
               )}
@@ -97,22 +97,23 @@ export const Layout = ({
           className={classNames(
             'group inset-x-center cursor-pointer hover:scale-105',
             pathname === '/'
-              ? 'bottom-1em !duration-300 hover:-translate-y-0.0675em'
+              ? 'bottom-0.9375em !duration-300 hover:-translate-y-0.0675em'
               : pathname.startsWith('/records')
-              ? 'bottom-2em'
-              : '-bottom-3em'
+              ? 'bottom-1.9375em'
+              : '-bottom-3.0625em'
           )}
           active={pathname.startsWith('/records')}
         >
           <Link href={pathname === '/records' ? '/' : '/records'}>
             <a
               className={classNames(
-                'inline-block transform transition-transform duration-500',
+                'inline-block transform translate-y-0.1875em transition-transform duration-500 hover:underline',
                 {
-                  '!hover:(translate-y-0 scale-100 no-underline)':
+                  '!hover:(scale-100 no-underline)':
                     pathname.startsWith('/records') && pathname !== '/records',
-                  'group-hover:(translate-y-0.0675em scale-90 line-through)':
+                  'group-hover:(scale-90 line-through)':
                     pathname.startsWith('/records'),
+                  'hover:translate-y-0': pathname === '/',
                 }
               )}
             >
@@ -124,7 +125,7 @@ export const Layout = ({
           className={classNames(
             'group inset-y-center cursor-pointer hover:scale-105',
             pathname === '/'
-              ? 'left-0 !duration-300 hover:translate-x-0.0675em'
+              ? 'left-0.5em  !duration-300 hover:translate-x-0.0675em'
               : pathname.startsWith('/contact')
               ? 'left-1em'
               : '-left-4em'
@@ -134,11 +135,11 @@ export const Layout = ({
           <Link href={pathname === '/contact' ? '/' : '/contact'}>
             <a
               className={classNames(
-                'inline-block transform -rotate-90 translate-x-0.5em transition-transform duration-500',
+                'inline-block transform translate-x-0.1875em -rotate-90 transition-transform duration-500 hover:underline',
                 {
-                  '!hover:(translate-x-0.5em scale-100 no-underline)':
+                  '!hover:(scale-100 no-underline)':
                     pathname.startsWith('/contact') && pathname !== '/contact',
-                  'group-hover:(translate-x-0.4325em scale-90 line-through)':
+                  'group-hover:(scale-90 line-through)':
                     pathname.startsWith('/contact'),
                 }
               )}
@@ -150,7 +151,10 @@ export const Layout = ({
       </header>
       <motion.main
         variants={variants}
-        className={classNames('relative z-1', className)}
+        className={classNames(
+          'relative z-1 px-8 py-16 flex flex-col justify-center items-center children:(w-prose max-w-full)',
+          className
+        )}
         initial='off'
         animate='on'
         exit='off'

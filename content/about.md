@@ -1,4 +1,4 @@
-## The Manifesto
+# The Manifesto
 
 The logic is simple, so we can keep things short and sweet:
 

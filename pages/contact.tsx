@@ -47,7 +47,7 @@ const ContactPage: NextPage = () => {
   const [, handleSubmit] = useForm('contactForm')
 
   return (
-    <Layout className='px-8 py-16 pl-43.75 flex flex-col justify-center items-center space-y-8 children:(w-prose max-w-full)'>
+    <Layout className='pl-43.75'>
       {!!content && (
         <section className='markdown'>
           <Markdown>{content}</Markdown>
@@ -80,11 +80,11 @@ const ContactPage: NextPage = () => {
               })
           }}
         >
-          {({ isSubmitting }) => (
+          {({ errors, isSubmitting }) => (
             <Form className='flex flex-col space-y-4 children:max-w-[49ch] markdown'>
               <Field
                 name='name'
-                autocomplete='name'
+                autoComplete='name'
                 placeholder='Name'
                 disabled={createdAt}
               />
@@ -95,7 +95,7 @@ const ContactPage: NextPage = () => {
               />
               <Field
                 name='email'
-                autocomplete='email'
+                autoComplete='email'
                 placeholder='Email address'
                 disabled={createdAt}
               />
@@ -107,7 +107,7 @@ const ContactPage: NextPage = () => {
               <Field
                 as='textarea'
                 name='message'
-                autocomplete='off'
+                autoComplete='off'
                 placeholder='Message'
                 disabled={createdAt}
               />
@@ -121,7 +121,7 @@ const ContactPage: NextPage = () => {
               ) : (
                 <input
                   type='submit'
-                  disabled={!!createdAt || isSubmitting}
+                  disabled={!!createdAt || errors.length || isSubmitting}
                   value={createdAt ? 'We got your submission' : 'Submit'}
                 />
               )}

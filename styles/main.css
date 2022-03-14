@@ -1,5 +1,5 @@
 :root {
-  @apply font-sans box-border bg-black text-white h-[stretch];
+  @apply font-sans hyphens-auto box-border bg-black text-white h-[stretch];
   font-size: 16px;
 }
 
@@ -17,4 +17,8 @@ body {
   &::-webkit-scrollbar {
     display: none;
   }
+}
+
+a {
+  @apply font-accent font-heavy;
 }

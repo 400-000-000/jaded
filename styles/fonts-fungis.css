@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'FUNGIS';
+  src: url('../public/fonts/FUNGIS Regular.woff2');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'FUNGIS';
+  src: url('../public/fonts/FUNGIS Bold.woff2');
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'FUNGIS';
+  src: url('../public/fonts/FUNGIS Heavy.woff2');
+  font-weight: 900;
+}

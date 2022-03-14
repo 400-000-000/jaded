@@ -1,33 +1,41 @@
 .h1 {
-  @apply font-bold text-2em my-0.67em;
+  @apply font-accent !leading-[0.75] !font-normal uppercase text-5xl sm:text-6xl mt-24 mb-4;
+
+  columns: 2;
+  widows: 1;
+  orphans: 1;
 }
 
 .h2 {
-  @apply font-bold text-1.5em my-0.83em;
+  @apply font-accent !leading-[0.75] font-bold uppercase text-4xl sm:text-4xl mt-16 mb-4;
 }
 
 .h3 {
-  @apply font-bold text-1.17em my-1em;
+  @apply font-accent !leading-[0.75] font-black uppercase text-2xl mt-10 mb-4;
 }
 
 .h4 {
-  @apply font-bold my-1.33em;
+  @apply font-accent !leading-[0.75] font-black uppercase mt-8 mb-4;
 }
 
 .h5 {
-  @apply font-bold text-0.83em my-1.67em;
+  @apply font-accent !leading-[0.75] font-black uppercase text-sm mt-6 mb-4;
 }
 
 .h6 {
-  @apply font-bold text-0.67em my-2.33em;
+  @apply font-accent !leading-[0.75] font-black uppercase text-xs mt-6 mb-4;
 }
 
 .p {
-  @apply my-1em;
+  @apply my-4;
+}
+
+.strong {
+  @apply font-accent;
 }
 
 .a {
-  @apply inline-block underline transform transition-transform hover:scale-105;
+  @apply inline-block underline uppercase transform transition-transform hover:scale-105;
 }
 
 .ol {
@@ -65,6 +73,10 @@
 
   p {
     @apply block p;
+  }
+
+  strong {
+    @apply strong;
   }
 
   a {
