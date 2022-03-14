@@ -123,7 +123,7 @@ const ContactPage: NextPage = () => {
                   type='submit'
                   disabled={
                     !!createdAt ||
-                    Object.values(errors).filter(x => x).length ||
+                    !!Object.values(errors).filter(x => x).length ||
                     isSubmitting
                   }
                   value={createdAt ? 'We got your submission' : 'Submit'}
