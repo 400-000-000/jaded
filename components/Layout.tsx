@@ -29,13 +29,17 @@ export const Layout = ({
     <div>
       <NextSeo {...{ description, title }} openGraph={{ description, title }} />
       {pathname === '/' && (
-        <div className='fixed inset-center w-full max-w-1/2 max-h-1/2 aspect-square'>
-          <motion.div layoutId='logo' className='w-full h-full'>
-            <IconJaded
-              className='w-full h-full animate-spin'
-              style={{ animationDuration: '60s' }}
-            />
-          </motion.div>
+        <div className='fixed z-1000 inset-center w-full max-w-1/2 max-h-1/2 aspect-square cursor-pointer transition-transform hover:scale-105'>
+          <Link href='/about'>
+            <motion.div layoutId='logo' className='w-full h-full'>
+              <a>
+                <IconJaded
+                  className='w-full h-full animate-spin'
+                  style={{ animationDuration: '60s' }}
+                />
+              </a>
+            </motion.div>
+          </Link>
         </div>
       )}
       <header className='uppercase leading-none text-2xl children:(!fixed z-1000 transition-all duration-500 children:w-max)'>
