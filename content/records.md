@@ -21,7 +21,7 @@ Tunes for organic life. Cooperatively produced. Distributed via [Resonate](https
 
 • Artists based in NYC or the tri-state area are preferred.
 
-• Artists of any gender and/or sexual orientation accepted.
+• Artists of any gender and/or sexual orientation are accepted.
 
 • Those involved with Jaded Records **do not** operate on *purely transactional* terms – we are interested in building relationships and trust with one another as *humans* first, and letting that inform how we create and build together.
 
