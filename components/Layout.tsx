@@ -66,7 +66,7 @@ export const Layout = ({
                 }
               )}
             >
-              Tired but here
+              Tired, but here
             </a>
           </Link>
         </Logo>
