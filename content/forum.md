@@ -10,6 +10,6 @@ Streaming only on [Resonate](https://stream.resonate.coop/artist/21687). Becauas
 
 Our NYC show is produced by [400,000,000](https://400000000.co/).
 
-[Twitter](https://twitter.com/JadedForum) • [Instagram](https://instagram.com/jadedforum)
+[Twitter](https://twitter.com/JadedForum) • [Instagram](https://instagram.com/jadedforum) • [Discord](https://discord.com/invite/3eGk9gGaUH) • [TikTok](https://www.tiktok.com/@jadedforum)
 
 To help us all get off of YouTube, Twitter, Instagram, and more, visit our [Digital Zion portal](https://digitalzion.online) and tap in.
