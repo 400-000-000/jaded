@@ -4,7 +4,7 @@ Tired, but here.
 
 Convos, shows, and parties. Recorded and featured on [YouTube](https://www.youtube.com/channel/UCBIvNddUf7Nwx7BEpWKYBhQ) _**(for now).**_
 
-Streaming only on [Resonate](https://stream.resonate.coop/artist/21687). Becauase it's a platform all of us can control together. More on that [here](https://resonate.is/about/).
+The audio for Jaded Forum can now be found on [Spotify](https://open.spotify.com/show/312b9HluOnGbZi9mW3k61y) and [Apple Podcasts](https://podcasts.apple.com/us/podcast/jaded-forum/id1671100252) as we build a cooperative music streaming alternative for the digital commons. Please visit https://digitalzion.online for more on how you can help us do just that.
 
 **Support us on [Open Collective](https://opencollective.com/jadedforum).**
 
