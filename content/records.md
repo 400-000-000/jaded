@@ -3,17 +3,6 @@
 Tunes for organic life. Cooperatively produced.
 Follow our releases here.\
 \
-\
-**Currently Looking For:**
-
-• **Black/African American** *(generational roots in North America)* vocalists, instrumentalists, producers, and/or composers *(church background preferred).*\
-• **Indigenous** vocalists, instrumentalists, producers, and/or composers.\
-• **Japanese** and/or **Japanese American** vocalists, instrumentalists, producers, and/or composers.\
-• Orchestral and/or electronic composers, and songwriters of any ethnic/racial background.\
-• Creative directors and graphic designers with proficiency in Adobe Photoshop, Adobe Illustrator, and more.\
-• Marketing and promotion specialists *(comms experience and/or background preferred).*\
-\
-\
 **Notes on Outreach:**
 
 • Artists based in NYC or the tri-state area are preferred.\
