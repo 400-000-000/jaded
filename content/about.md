@@ -64,7 +64,7 @@ This means that we decide things ourselves, don’t believe in having “represe
 
 This means that our ultimate aims and goals are around serving the cultural laborers within our organizations, their communities, and the broader subcultures that they nurture (instead of profit or capital accumulation). There is no getting around money and the broader elements of our global economy under our present systems, but we choose to navigate “business” in a way that prioritizes the survival and dignity of the humans who make everything go.
 
-### Intersectional
+### Inclusive
 
 This means that our organizations will account for dynamics around representation, understanding that there are multiple, interconnected layers of oppression impacting different people within our society in different ways (along axes of class, race, gender, sexuality, and more), and that this calls for all of our creative institutions to have measures in place that ensure the most disenfranchised have a say along with everyone else.
 
@@ -78,7 +78,7 @@ This means that we are uninterested in uniting with traditional capitalist firms
 
 ## The Structure
 
-The first Jaded hub is in NYC, its flagship institutions being [**Jaded Forum**](/forum) – a show hosted by artists Yedoye Travis and Z and produced by 400,000,000 Productions that includes community discussion, live performances, and parties – **Jaded Records,** and **Jaded Magazine (in development).** Jaded Forum as a show – and the first project of Jaded as a global collective – is structured under a multi-stakeholder co-op model, which means there are various levels of membership within the institution, and a range of percentages in terms of how much of any surplus generated is distributed to co-owners and/or members.
+The first Jaded hub is in NYC. Its flagship institutions is [**Jaded Forum**](/forum), a show hosted by artists Yedoye Travis and Z that includes community discussion, live performances, and parties. This hub also includes **Jaded Records,** and **Jaded Magazine (in development).** Jaded Forum as a show is produced by 400,000,000 Productions, a multi-stakeholder co-op with various levels of membership.
 
 **Have a cooperative or collective in any of the areas below? Reach out, plug in, and let’s federate.**
 
