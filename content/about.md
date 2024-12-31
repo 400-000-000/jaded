@@ -93,7 +93,7 @@ _**Remember:** The legal “co-op” designation does not mean that 1) all co-op
 
 ## Notes on Financing
 
-As of **March 2022,** we intend to generate revenue through **equity crowdfunding** paired with **live events** and **parties.**
+We intend to generate revenue through **equity crowdfunding** paired with **live events** and **parties.**
 
 Startup capital will be provided by co-op members with _optional_ guarantee of return of **principal investment (no interest)** once the co-op has become profitable, and we also intend to allow **“supporter shares,”** which offer **angel investors and/or donors** the _potential_ for a return of **preferred interest,** but **no _guarantees_ of a return _or_ voting rights** in the governance of Jaded hubs and co-ops.
 
