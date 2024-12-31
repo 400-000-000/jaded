@@ -78,15 +78,7 @@ This means that we are uninterested in uniting with traditional capitalist firms
 
 ## The Structure
 
-Jaded represents an international network of cooperative and creative ecosystems we call “hubs” that are made up of institutions called “worker cooperatives.” Worker cooperatives – and more specifically Worker Self-Directed Enterprises (WSDEs) – are businesses that are democratically “owned” and/or controlled by all of its workers, as well as representatives from surrounding communities.
-
-Each local Jaded hub is made up of various creative institutions that are interconnected and rooted in direct democracy (meaning everyone decides things directly and together under consent and consensus decision-making processes), as well as the “circles” governance structure (more on that [here](https://www.sociocracyforall.org/content/)). Each local Jaded hub also decides its own affairs in accordance with our principles as a global network, and can even fork off/out of the Jaded network if there are crucial disagreements or conflicts around principles. Hubs stay connected through a general “circle” council made up of at least two delegates from each respective hub.
-
-The first Jaded hub is in NYC, its flagship institutions being [**Jaded Forum**](/forum) – a show hosted by comedians/artists Yedoye Travis, Connor Boyd, and Z that includes community discussion, live performances, and parties – **Jaded Records,** and **Jaded Magazine (in development).** Jaded Forum as a show – and the first project of Jaded as a global collective – is structured under a multi-stakeholder co-op model, which means there are various levels of membership within the institution, and a range of percentages in terms of how much of any surplus generated is distributed to co-owners and/or members. _As of March 2022, the particulars of this are still being determined by co-founders._
-
-All new hubs must be approved by vote amongst all Jaded hubs and/or their delegates to be considered official parts of the global Jaded network.
-
-There is no “central command” that issues orders or makes decisions from the top down through Jaded networks – all local Jaded hubs around the world have autonomy, associate with each other on their own terms (in free association, guided by our shared principles), and, under “liquid democracy,” have the options to vote directly themselves, or democratically elect instantly-recallable delegates to vote on structural matters that impact the global network as a whole (this could be related to resource allocation, technology, network infrastructure, organization structure, and more).
+The first Jaded hub is in NYC, its flagship institutions being [**Jaded Forum**](/forum) – a show hosted by artists Yedoye Travis and Z and produced by 400,000,000 Productions that includes community discussion, live performances, and parties – **Jaded Records,** and **Jaded Magazine (in development).** Jaded Forum as a show – and the first project of Jaded as a global collective – is structured under a multi-stakeholder co-op model, which means there are various levels of membership within the institution, and a range of percentages in terms of how much of any surplus generated is distributed to co-owners and/or members.
 
 **Have a cooperative or collective in any of the areas below? Reach out, plug in, and let’s federate.**
 
@@ -97,7 +89,7 @@ There is no “central command” that issues orders or makes decisions from the
 - Game Development
 - Web Development and Design
 
-_**Remember:** The legal “co-op” designation does not mean that 1) all co-ops are committed to democracy internally or 2) committed to a more democratic community and/or world. In addition to the quality of what groups are bringing to our network, collective commitment to direct democracy both internally (within respective groups) and externally (within wider communities and society) is what we are most concerned with gauging._
+_**Remember:** The legal “co-op” designation does not mean that 1) all co-ops are committed to democracy internally or 2) committed to a more democratic community and/or world. In addition to the quality of what groups are bringing to our network, collective commitment to direct democracy both internally (within respective groups) and externally (within wider communities and society) is what we are most concerned with._
 
 ## Notes on Financing
 
