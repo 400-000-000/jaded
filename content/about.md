@@ -78,7 +78,7 @@ This means that we are uninterested in uniting with traditional capitalist firms
 
 ## The Structure
 
-The first Jaded hub is in NYC. Its flagship institutions is [**Jaded Forum**](/forum), a show hosted by artists Yedoye Travis and Z that includes community discussion, live performances, and parties. This hub also includes **Jaded Records,** and **Jaded Magazine (in development).** Jaded Forum as a show is produced by 400,000,000 Productions, a multi-stakeholder co-op with various levels of membership.
+The first Jaded hub is in NYC. Its flagship institution is [**Jaded Forum**](/forum), a show hosted by artists Yedoye Travis and Z that includes community discussion, live performances, and parties. This hub also includes **Jaded Records** and **Jaded Magazine (in development).** Jaded Forum as a show is produced by 400,000,000 Productions, a multi-stakeholder co-op with various levels of membership.
 
 **Have a cooperative or collective in any of the areas below? Reach out, plug in, and let’s federate.**
 
