@@ -40,7 +40,7 @@ Or…
 
 _Actively push for something different with others… by doing things differently._
 
-_**Very differently.**_
+**Very differently.**
 
 For Jaded – as a network and collective of creatives – “doing things differently” means:
 
